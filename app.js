@@ -1,30 +1,3 @@
-const data = [
-    {
-        name: 'John Doe',
-        age: 32,
-        gender: 'male',
-        lookingfor: 'female',
-        location: 'Kuala lumpur MY',
-        image: 'https://randomuser.me/api/portraits/men/81.jpg'
-    },
-    {
-        name: 'Jen Smith',
-        age: 26,
-        gender: 'female',
-        lookingfor: 'male',
-        location: 'Miami FL',
-        image: 'https://randomuser.me/api/portraits/women/82.jpg'
-    },
-    {
-        name: 'Willam Johnson',
-        age: 38,
-        gender: 'male',
-        lookingfor: 'female',
-        location: 'Boston MA',
-        image: 'https://randomuser.me/api/portraits/men/30.jpg'
-    }
-];
-
 const profiles = profileIterator(data);
 
 //Call first Profile
